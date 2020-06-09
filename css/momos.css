@@ -1,0 +1,68 @@
+/*SHREY PATEL*/
+
+header{
+    color: #23223e;
+    font-family: ;
+    display: block;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.pics {
+    float: left;
+    width: 30%;
+    padding: 19px;
+}
+
+
+.gallary::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+#wrap{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h2{
+    color: #23223e;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+p{
+    font-size: 1.2em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+li{
+    padding-top: 3px;
+    font-size: 1.2em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h4{
+    font-size: 1em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+body{
+    background-image: url("../images/back.jpg");
+    /*background-repeat: no-repeat;*/
+    background-size: cover;
+}
+
+img{
+    opacity: 0.5;
+}
+
+img:hover{
+    opacity: 1.0;
+}
+
+
